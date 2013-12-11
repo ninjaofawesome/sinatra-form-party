@@ -1,0 +1,67 @@
+<h1>TEAM</h1>
+<form action="/pokemon" method="POST">
+
+  <h1>Personal Info</h1>
+
+  <label for="POST-name">Name:</label>
+  <input id="POST-name" type="text" name="personal[name]" /> 
+
+  <br/>
+
+  <h1>Character</h1>
+
+  <label for="charachter_name">Name:</label>
+  <input id="charachter_name" type="text" name="team[0][name]" />
+
+  <label for="character_type">type:</label>
+  <select id="character_type" name="team[0][type]" />
+    <option value="bug">Bug</option>
+    <option value="fire">Fire</option>
+    <option value="normal">Normal</option>
+    <option value="ghost">Ghost</option>
+  </select>
+
+  <br/>
+
+  <label for="charachter_two_name">Name:</label>
+  <input id="charachter_two_name" type="text" name="team[1][name]" />
+
+  <label for="character_two_type">type:</label>
+  <select id="character_ttwo_ype" name="team[1][type]" />
+    <option value="bug">Bug</option>
+    <option value="fire">Fire</option>
+    <option value="normal">Normal</option>
+    <option value="ghost">Ghost</option>
+  </select>
+
+  <br/>
+
+    <label for="charachter_three_name">Name:</label>
+  <input id="charachter_three_name" type="text" name="team[2][name]" />
+
+  <label for="character_three_type">type:</label>
+  <select id="character_three_type" name="team[2][type]" />
+    <option value="bug">Bug</option>
+    <option value="fire">Fire</option>
+    <option value="normal">Normal</option>
+    <option value="ghost">Ghost</option>
+  </select>
+
+  <br/>
+
+  <h1>Badges</h1>
+
+  <label for="badge_one">Badge:</label>
+  <input type="checkbox" name="badges[0]" value="Water"/>Water Badge</input>
+
+  <label for="badge_two">Badge:</label>
+  <input type="checkbox" name="badges[1]" value="Electricity"/>Electricity Badge</input>
+
+  <br/>
+
+
+
+
+  <button type="submit" value="Submit">Submit</button>
+</form>
+
